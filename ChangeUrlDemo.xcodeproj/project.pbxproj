@@ -14,6 +14,7 @@
 		F595B54D20AE75E2002BD5E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F595B54B20AE75E2002BD5E8 /* LaunchScreen.storyboard */; };
 		F595B55820AE75E2002BD5E8 /* ChangeUrlDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595B55720AE75E2002BD5E8 /* ChangeUrlDemoTests.swift */; };
 		F595B56320AE75E2002BD5E8 /* ChangeUrlDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595B56220AE75E2002BD5E8 /* ChangeUrlDemoUITests.swift */; };
+		F595B57320AE76F9002BD5E8 /* MJChangeNetworkEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595B57220AE76F9002BD5E8 /* MJChangeNetworkEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F595B55E20AE75E2002BD5E8 /* ChangeUrlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeUrlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F595B56220AE75E2002BD5E8 /* ChangeUrlDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUrlDemoUITests.swift; sourceTree = "<group>"; };
 		F595B56420AE75E2002BD5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F595B57220AE76F9002BD5E8 /* MJChangeNetworkEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJChangeNetworkEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F595B54120AE75E2002BD5E8 /* ChangeUrlDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F595B57220AE76F9002BD5E8 /* MJChangeNetworkEnvironment.swift */,
 				F595B54220AE75E2002BD5E8 /* AppDelegate.swift */,
 				F595B54420AE75E2002BD5E8 /* ViewController.swift */,
 				F595B54620AE75E2002BD5E8 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F595B54520AE75E2002BD5E8 /* ViewController.swift in Sources */,
+				F595B57320AE76F9002BD5E8 /* MJChangeNetworkEnvironment.swift in Sources */,
 				F595B54320AE75E2002BD5E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
