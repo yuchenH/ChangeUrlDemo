@@ -27,6 +27,8 @@ public class MJChangeNetworkEnvironment {
     ///切换环境时使用者需要进行的操作 例如 清空缓存，或者切换私钥等
     var changeNetworkEvironmentAction: (()->Void)?
     
+    
+    /// 安装切换环境的功能
     public func setUpChangeNetworkEnvironment() {
         
         let long = UILongPressGestureRecognizer(target: self, action: #selector(longPressAction))
@@ -34,6 +36,9 @@ public class MJChangeNetworkEnvironment {
         self.targetController?.view.addGestureRecognizer(long)
     }
     
+    /// 获取当前环境
+    ///
+    /// - Returns: 返回自定义的环境变量
     public func getCacheEnvironmentFlag()-> String? {
         
         if let cacheEnvironment =  UserDefaults.standard.value(forKeyPath: networkEnvironmentCacheKey) as? String {

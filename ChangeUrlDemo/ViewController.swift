@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         
         MJChangeNetworkEnvironment.shared.appId = "1291221326"
         MJChangeNetworkEnvironment.shared.environments = [("生产环境", "1"),("debug环境", "2"),("测试环境", "3")]
+        MJChangeNetworkEnvironment.shared.changeNetworkEvironmentAction = { [weak self] in
+            
+            
+        }
         MJChangeNetworkEnvironment.shared.targetController = self
         MJChangeNetworkEnvironment.shared.setUpChangeNetworkEnvironment()
  
